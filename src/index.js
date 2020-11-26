@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/home';
 import Login from './pages/login';
+import Cadastrar from './pages/cadastrar';
+
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+
+const routing = {
+  <Router>
+
+  </Router>
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Cadastrar />
   </React.StrictMode>,
   document.getElementById('root')
 );
